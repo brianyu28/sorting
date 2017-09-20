@@ -1,6 +1,7 @@
 #include <time.h>
 #include <cs50.h>
 #include <stdio.h>
+#include <stdint.h>
 #include <stdlib.h>
 
 #define PRINT_RESULTS true
@@ -73,4 +74,6 @@ int main(void)
 void sort(int *arr, int n)
 {
     // TODO: sort the numbers
+    (void) arr;
+    (void) n;
 }
